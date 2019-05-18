@@ -9,6 +9,6 @@ node {
     }
     stage("phpunit") {
         // Run PHPUnit
-        sh 'phpunit'
+        sh 'vendor/bin/phpunit'
     }
 }                       
